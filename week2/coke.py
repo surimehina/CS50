@@ -9,7 +9,7 @@ def is_enough():
         temp = 0
 
         if money > 25:
-            temp = money - 5
+            money = 0
             money = money - temp
 
         all_money.append(money)
